@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    color: #424242;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 300;
+    text-align: center;
+}
+
+a {
+    color: #424242;
+    text-decoration: none;
+}
+
+input {
+    font: inherit;
+    color: #424242;
+}
+
+.input-focus:focus {
+    border: 1px solid #b59f5b;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.align__item {
+    margin: 40px auto;
+    max-width: 40rem;
+    width: 100%;
+    height: 70vh;
+    width: 80vw;
+}
+
+.register {
+    margin: 0 20px;
+    margin-bottom: 20px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 0px 10px;
+    text-align: center;
+    border-radius: 15px;
+
+}  
+
+.menu {
+    border-bottom: 1px solid #7e8ba3;
+    padding: 2rem;
+}
+
+.logo {
+    margin-top: 30px;
+    width: 350px;
+}
+
+.register ul{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.register ul li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.register input[type="submit"] {
+    background-image: linear-gradient(160deg, #b59f5b 0%, #776223 100%);
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.form {
+    padding: 0 30px;
+}
+
+.form input {
+    outline: 0;
+    padding: 20px 15px;
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.password {
+    position: relative;
+}
+
+.password-control {
+    position: absolute;
+    background-image: url('../img/глаз.svg');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    top: 37px;
+    right: 13px;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+}
+
+.view {
+    background-image: url('../img/Глаз-no.svg');
+}
+
+.err {
+    position: absolute;
+    left: calc(50% - 140px);
+    top: 480px;
+}
